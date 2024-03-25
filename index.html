@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Agenda que permite añadir, buscar y borrar un contacto"
+    />
+    <meta
+      name="keywords"
+      content="Agenda que permite añadir, buscar y borrar un contacto"
+    />
+    <meta name="author" content="Ayoub bouazi" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>PhoneBook</title>
+  </head>
+  <body>
+    <h1>Phone Book</h1>
+  <!-- search contact -->
+    <form action="">
+      <input type="text" id="search" placeholder="Search" />
+      <button id="searchBtn">Search</button>
+    </form>
+
+    <!-- add  contact -->
+    <form action="">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="phone" placeholder="Phone" />
+      <button id="add">Add</button>
+    </form>
+
+  
+    <!-- display contacts -->
+    <div id="contacts">
+      <h2>Contacts</h2>
+      <ul id="contactList">
+        <li>Ayoub bouazi: 698987876</li>
+      </ul>
+    </div>
+
+    <!-- delete contact -->
+    <form action="">
+      <input type="text" id="delete" placeholder="Delete" />
+      <button id="deleteBtn">Delete</button>
+    </form>
+    <script src="./js/index.js" defer></script>
+  </body>
+</html>
